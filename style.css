@@ -137,4 +137,28 @@ button:disabled {
     .container__informacoes {
         padding: 1rem
     }
+
+}
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* O main deve crescer para ocupar o espaço disponível */
+main {
+    flex-grow: 1;
+}
+
+/* Estilização do footer */
+footer {
+    color: #ffffff; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno */
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
